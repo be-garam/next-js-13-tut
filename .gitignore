@@ -1,0 +1,50 @@
+# Next.js 관련
+.next/
+out/
+build/
+dist/
+
+# 의존성 관련
+node_modules/
+package-lock.json
+yarn.lock
+.pnp
+.pnp.js
+
+# 환경 변수
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 디버그 로그
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Conda 환경 관련
+/envs/
+*.conda
+conda-meta/
+.conda/
+.condarc
+
+# 테스트 커버리지
+coverage/
+
+# PWA 관련
+public/sw.js
+public/workbox-*.js
+
+# 기타
+*.pem
+.vercel
+.turbo 
