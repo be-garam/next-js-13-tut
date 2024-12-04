@@ -100,6 +100,7 @@ graph TD
     - CSR: 클라이언트 사이드 렌더링 
         - "use client" 지시문을 사용하여 명시적으로 선언
         - 브라우저에서 JavaScript가 실행되어 렌더링
+    - React위에 얹힌 프레임워크이므로 리엑트 버전의 HTML, CSS, JS 문법을 따름
 - Next.js 13 → 15 주요 변경사항:
     - "Turbopack(터보팩)"이 더욱 안정화
     - 서버 액션이 정식으로 도입
@@ -110,3 +111,7 @@ graph TD
     - `+page.svelte` 대신 `page.js`, `+layout.svelte` 대신 `layout.js`
         - `layout`은 `page`를 감싼다.
     - `app.css` 대신 `globals.css`: 전역 스타일 정의
+### 3. `page.js` 파일 기초 작성
+- `return()`안에 HTML를 넣을 때는 반드시 하나의 태그로 시작하고 반환해야 함
+- `class` 대신 `className`을 사용해야 style 적용 가능
+    - javascript에 이미 `class`라는 이름이 있기 때문에 `className`으로 사용
